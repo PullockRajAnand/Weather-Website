@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>About Me</title>
+    <link rel="stylesheet" href="about_me.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+</head>
+<body>
+  <div class="arr left"></div>
+  <div class="wrapper">
+    <div class="img-area">
+      <div class="inner-area">
+        <img src="https://images.unsplash.com/photo-1492288991661-058aa541ff43?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="...">
+      </div>
+    </div>
+    <a href="index.html">
+      <div class="icon arrow"><i class="fas fa-arrow-left"></i></div>
+    </a>
+    <div class="name">Pullock Raj Anand</div>
+    <div class="about">Designer & Developer</div>
+    <div class="rating">
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+    </div>
+     <br>
+     <hr width = 100% height = 10px>
+     <br>
+    <div class="description">Hello! I am Pullock. The developer of this Website. This Website has taken a lot of hardwork and patience. In fact, this Website is created during my Exam Days. Make use of it and Enjoy!</div>
+    <br>
+    <hr width = 100% height = 10px>
+  </div>
+  <footer class = "footer">
+    <p>© 2022 Copyright: Created By - Pullock!</p>
+  </footer>
+</body>
+</html>

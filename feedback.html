@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Feedback</title>
+    <link rel="icon" type="image/x-icon" href="weather_icon.png">
+    <link rel="stylesheet" href="feedback.css">
+     <script src="https://kit.fontawesome.com/67c66657c7.js"></script>
+</head>
+<body>
+    <section></section>
+    <div class="icon arrow">
+    <a href="index.html">
+        <div class="icon1"><i class="fas fa-arrow-left"></i></div>
+    </a>
+    </div>
+    <div class="container">
+        <form>
+            <h1>Give Your Valuable Feedback</h1>
+            <div class="id">
+                <input type="text" placeholder="Full Name">
+                <i class="far fa-user"></i>
+            </div>
+            <div class="id">
+                <input type="email" placeholder="Email Address">
+                <i class="far fa-envelope"></i>
+            </div>
+            <textarea cols="15" rows="5" placeholder="Enter your Opinions here..."></textarea>
+            <button type="submit" class="btn" onclick="openPopup()">Submit</button>
+        </form>
+        <div class="popup" id="popup">
+            <img src="tick.png" alt="...">
+            <h2>Thank You!</h2>
+            <p>Your Feedback has been Successfully submitted! Thanks!</p>
+            <button type="button" onclick="closePopup()">OK</button>
+        </div>
+    </div>
+    <script>
+        let popup = document.getElementById("popup");
+        function openPopup(){
+           popup.classList.add("open-popup"); 
+        }
+        function closePopup(){
+           popup.classList.remove("open-popup"); 
+        }
+    </script>
+    <footer class = "footer">
+        <p>© 2022 Copyright: Created By - Pullock!</p>
+    </footer>
+</body>
+</html>
